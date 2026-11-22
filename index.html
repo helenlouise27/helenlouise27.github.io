@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郑婷的个人主页</title>
+    <style>
+        body {
+            max-width: 720px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            color: #2f3542;
+            background: #f6f7fb;
+            line-height: 1.8;
+        }
+        h1 { color: #1e90ff; }
+        .photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1e90ff;
+        }
+        .links a {
+            display: inline-block;
+            margin: 0 8px 8px 0;
+            padding: 6px 16px;
+            background: #1e90ff;
+            color: #fff;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        .links a:hover { background: #1676d8; }
+        footer { margin-top: 40px; color: #999; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <!-- ① 标题 -->
+    <h1>你好，我是郑婷 👋</h1>
+
+    <!-- ② 照片（把 photo.jpg 放到本文件夹里） -->
+    <img class="photo" src="photo.jpg" alt="我的照片">
+
+    <!-- ③ 自我介绍 -->
+    <h2>自我介绍</h2>
+    <p>
+        大家好！我是郑婷，一名软件工程专业的大一学生。
+        我目前正在学习 C 语言和 C++，也会在 GitHub 上逛各种学习仓库，
+        一点点积累编程基础。我的目标是成为一名游戏开发工程师，
+        用代码做出一个属于自己的虚拟世界。
+        除了写代码，我还喜欢听歌、看视频、探索各种有趣的小工具。很高兴认识你！
+    </p>
+
+    <!-- ④ 几个超链接 -->
+    <h2>我喜欢的网站</h2>
+    <div class="links">
+        <a href="https://www.bilibili.com" target="_blank">哔哩哔哩</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://oi-wiki.org" target="_blank">OI Wiki</a>
+        <a href="https://developer.mozilla.org/zh-CN/" target="_blank">MDN 文档</a>
+    </div>
+
+    <footer>© 2026 郑婷 · 我的第一个网页</footer>
+</body>
+</html>
